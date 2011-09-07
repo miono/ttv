@@ -1,0 +1,10 @@
+ttv.sh v0.1
+
+TTV is a simple bash-script that lets you view the teletext from the Swedish Public Service-channel SVT.
+
+usage: ttv.sh <pagenumber>
+
+If you have any questions or comments about the script, don't hesitate to contact me:
+
+Markus Nilsson, <markus.nilsson@gmail.com>
+miono@IRCnet
