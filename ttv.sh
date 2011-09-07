@@ -19,5 +19,5 @@ if [[ $PAGE = "" ]]; then
 fi
 
 wget -q "http://www.svt.se/svttext/web/pages/$PAGE.html" -O - | \
-iconv -f iso-8859-1 -t utf8 | \
+iconv -f ISO_8859-1 -t UTF-8 | \
 sed -re 's/.*"root"> (.*)$/\1/' -e 's/<\/pre>.*//' -e 's/<[^>]*>//g' -e 's/&gt;/>/g' -e 's/&lt;/</g'
