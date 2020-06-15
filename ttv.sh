@@ -10,7 +10,7 @@
 # ttv.sh written by Markus Nilsson, miono@IRCnet
 # Bugs, Requests, etc: markus.nilsson [AltGr+2] gmail.com
 
-DEFAULTPAGE=345 # Set your own default page here
+DEFAULTPAGE=343 # Set your own default page here
 
 PAGE=$1
 
